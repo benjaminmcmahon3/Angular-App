@@ -1,0 +1,56 @@
+.inventory-container {
+  position: fixed;
+  bottom: 1px;
+  left: 10px;
+  width: 400px;
+  height: 200px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.chest-back {
+  display: relative;
+  width: 350px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/assets/chestBack.png");
+}
+
+.inventory-window {
+  display: relative;
+}
+
+.chest-button {
+  display: relative;
+}
+
+.inventory-container {
+  position: fixed;
+  bottom: 1px;
+  left: 10px;
+  width: 400px;
+  height: 200px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.chest-back,
+.inventory-window,
+.chest-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.chest-back {
+  display: fixed;
+  width: 350px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

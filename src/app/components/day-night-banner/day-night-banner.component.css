@@ -1,0 +1,14 @@
+:host {
+  position: fixed;
+  top: 0px;          /* 20px down from the top */
+  left: 50%;          /* move to center horizontally */
+  transform: translateX(-50%); /* shift left by 50% of its own width */
+  background-color: #555; /* muted dark background */
+  color: white;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  text-align: center;
+  user-select: none;
+  width: 50vw;
+  height: 10vh;
+}

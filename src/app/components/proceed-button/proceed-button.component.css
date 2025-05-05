@@ -1,0 +1,21 @@
+:host {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background-color: #444;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  width: 30vw;
+  height: 15vh;
+
+  clip-path: polygon(
+    100% 0%,
+    25% 0%,
+    0% 100%,
+    100% 100%
+  );
+}

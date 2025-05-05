@@ -1,0 +1,17 @@
+.chest-front,
+.chest-closed {
+  position: fixed;
+  width: 350px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.chest-front {
+  background-image: url('/assets/chestFront.png');
+}
+
+.chest-closed {
+  background-image: url('/assets/chestClosed.png');
+}

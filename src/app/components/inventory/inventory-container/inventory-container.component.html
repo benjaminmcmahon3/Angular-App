@@ -1,0 +1,13 @@
+<div class="inventory-container">
+  <div class="chest-back"></div>
+  <app-inventory-window 
+    class="inventory-window" 
+    [isOpen]="(isOpen$ | async) || false"
+    ></app-inventory-window>
+  <app-chest-button 
+    class="chest-button"
+    [isOpen]="(isOpen$ | async) || false"
+    [isClosing]="(isClosing$ | async) || false"
+    (inventoryToggled)="toggleInventory()"
+    ></app-chest-button>
+</div>
