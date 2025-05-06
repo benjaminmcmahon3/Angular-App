@@ -2,8 +2,8 @@
   position: fixed;
   bottom: 5px;
   left: 5px;
-  width: 400px;
-  height: 175px;
+  width: 350px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +13,7 @@
 }
 
 .chest-back {
-  display: relative;
+  display: absolute;
   width: 350px;
   height: 150px;
   background-size: cover;
@@ -23,37 +23,32 @@
 }
 
 .inventory-window {
-  position: relative;
-}
-
-.chest-button {
-  display: relative;
-}
-
-.chest-back,
-.inventory-window,
-.chest-button {
   position: absolute;
-  top: 0;
-  left: 0;
+  left: 24px;
   width: 100%;
   height: 100%;
 }
 
+.chest-button {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .chest-back {
   position: absolute;
+  top: 5px;
   width: 360px;
   height: 155px;
-  left: -1%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.chest-closed:hover,
-.chest-front:hover,
-.chest-button:hover,
-.chest-back {
+.chest-button:hover {
   transform: scale(0.98); 
-  cursor: pointer;
 }
