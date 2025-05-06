@@ -1,3 +1,6 @@
-<div *ngIf="isOpen">
+<div 
+  class="inventory-window"
+  [@grow]="isOpen ? 'open' : 'closed'"
+>
   <p>Inventory</p>
 </div>
