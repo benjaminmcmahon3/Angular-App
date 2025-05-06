@@ -2,6 +2,10 @@
   class="chest-button"
   (click)="toggleInventoryEmitter()"
 >
-  <div class="chest-front" *ngIf="isOpen || isClosing"></div>
-  <div class="chest-closed" *ngIf="!isOpen && !isClosing"></div>
+  <div class="chest-front" *ngIf="isOpen || isClosing">
+    <p class="label">Inventory</p>
+  </div>
+  <div class="chest-closed" *ngIf="!isOpen && !isClosing">
+    <p class="label">Inventory</p>
+  </div>
 </div>

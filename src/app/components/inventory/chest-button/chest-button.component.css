@@ -27,3 +27,12 @@
 .chest-closed {
   background-image: url('/assets/chestClosed.png');
 }
+
+.label {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: x-large;
+}
