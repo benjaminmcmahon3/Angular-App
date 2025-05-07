@@ -1,0 +1,22 @@
+:host {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.player {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.map {
+  position: fixed;
+  display: block;
+  width: 500px;
+  height: 500px;
+  pointer-events: auto;
+  border: 5px solid orange;
+}

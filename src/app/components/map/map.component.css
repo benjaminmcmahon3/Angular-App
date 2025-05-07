@@ -1,11 +1,17 @@
-:host {
-  position: fixed;
-  top: 0;
-  left: 0;
+.map {
+  display: block;
+  position: absolute;
   width: 100vw;
   height: 100vh;
   background-image: url('/assets/Map.png');
-  background-size: cover;      /* Stretch to fill the component */
-  background-position: center; /* Center the image */
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  pointer-events: auto;
+}
+
+button {
+  position: absolute;
+  width: 300px;
+  height: 300px;
 }
